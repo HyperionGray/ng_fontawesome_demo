@@ -12,7 +12,7 @@ dependencies:
 
 dependency_overrides:
   ng_fontawesome:
-    path: ..
+    path: ../ng_fontawesome
 
 dev_dependencies:
   browser: ^0.10.0
