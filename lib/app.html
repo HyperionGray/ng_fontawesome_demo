@@ -3,7 +3,7 @@
     <h1>ng_fontawesome</h1>
     <p>Font Awesome for Angular Dart</p>
     <a class='btn btn-primary' href='https://github.com/hyperiongray/ng_fontawesome'>
-      <fa name='github'></fa>
+      <fa style='brand' name='github'></fa>
       View on GitHub
     </a>
   </div>
@@ -19,35 +19,15 @@
     <tbody>
       <tr>
         <td>
-          Normal Icon
+          Icon Styles
+        </td>
+        <td class='example'>
+          <fa style='solid'   name='flag'></fa><br>
+          <fa style='regular' name='flag'></fa>
         </td>
         <td>
-          <fa name='flag'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name='flag'&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Flip Horizontal
-        </td>
-        <td>
-          <fa name='flag' flip='horizontal'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&quot;flag&quot; flip=&quot;horizontal&quot;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Flip Vertical
-        </td>
-        <td>
-          <fa name='flag' flip='vertical'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&quot;flag&quot; flip=&quot;vertical&quot;&gt;&lt;/fa&gt;</code>
+          <code>{{"<fa style='solid'   name='flag'></fa>
+<fa style='regular' name='flag'></fa>"}}</code>
         </td>
       </tr>
       <tr>
@@ -55,240 +35,132 @@
           Fixed Width
         </td>
         <td>
-          <fa name='flag' [fw]='true'></fa>Flag<br>
-          <fa name='bath' [fw]='true'></fa>Bath<br>
-          <fa name='id-card' [fw]='true'></fa>ID Card
+          <fa name='flag'    [fw]='true'></fa>&nbsp;Flag<br>
+          <fa name='bath'    [fw]='true'></fa>&nbsp;Bath<br>
+          <fa name='id-card' [fw]='true'></fa>&nbsp;ID Card
         </td>
         <td>
-          <code class='block'>&lt;fa name=&quot;flag&quot; [fw]=&quot;true&quot;&gt;&lt;/fa&gt;Flag&lt;br&gt;
-&lt;fa name=&quot;bath&quot; [fw]=&quot;true&quot;&gt;&lt;/fa&gt;Bath&lt;br&gt;
-&lt;fa name=&quot;id-card&quot; [fw]=&quot;true&quot;&gt;&lt;/fa&gt;ID Card</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Inverse
-        </td>
-        <td>
-          <span style='background-color:black;'>
-            <fa name='flag' [inverse]='true'></fa>
-          </span>
-        </td>
-        <td>
-          <code>&lt;span style=&apos;background-color:black;&apos;&gt;
-  &lt;fa name=&quot;flag&quot; [inverse]=&quot;true&quot;&gt;&lt;/fa&gt;
-&lt;/span&gt;</code>
+          <code>{{"<fa name='flag'    [fw]='true'></fa>&amp;nbsp;Flag
+<fa name='bath'    [fw]='true'></fa>&amp;nbsp;Bath
+<fa name='id-card' [fw]='true'></fa>&amp;nbsp;ID Card"}}</code>
         </td>
       </tr>
       <tr>
         <td>
-          Border
+          Sizes
         </td>
         <td>
-          <fa name='flag' [border]='true'></fa>
+          <fa name='flag' size='xs'></fa><br>
+          <fa name='flag' size='sm'></fa><br>
+          <fa name='flag' size='lg'></fa><br>
+          <fa name='flag' size='2x'></fa><br>
+          <fa name='flag' size='3x'></fa><br>
+          <fa name='flag' size='5x'></fa><br>
+          <fa name='flag' size='7x'></fa><br>
+          <fa name='flag' size='10x'></fa>
         </td>
         <td>
-          <code>&lt;fa name=&quot;flag&quot; [border]=&quot;true&quot;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Pull Left
-        </td>
-        <td>
-          <fa name='flag' pull='left'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&quot;flag&quot; pull=&quot;left&quot;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Pull Right
-        </td>
-        <td>
-          <fa name='flag' pull='right'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&quot;flag&quot; pull=&quot;right&quot;&gt;&lt;/fa&gt;</code>
+          <code>{{"<fa name='flag' size='xs'></fa>
+<fa name='flag' size='sm'></fa>
+<fa name='flag' size='lg'></fa>
+<fa name='flag' size='2x'></fa>
+<fa name='flag' size='3x'></fa>
+<fa name='flag' size='5x'></fa>
+<fa name='flag' size='7x'></fa>
+<fa name='flag' size='10x'></fa>"}}</code>
         </td>
       </tr>
       <tr>
+        <td>Lists</td>
         <td>
-          Pulse
-        </td>
-        <td>
-          <fa name='spinner' [pulse]='true'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&quot;spinner&quot; [pulse]=&quot;true&quot;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Spin
-        </td>
-        <td>
-          <fa name='spinner' [spin]='true'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&quot;spinner&quot; [spin]=&quot;true&quot;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Rotate 90°
-        </td>
-        <td>
-          <fa name='flag' [rotate]='90'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&quot;flag&quot; [rotate]=&quot;90&quot;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Rotate 180°
-        </td>
-        <td>
-          <fa name='flag' [rotate]='180'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&quot;flag&quot; [rotate]=&quot;180&quot;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Rotate 270°
-        </td>
-        <td>
-          <fa name='flag' [rotate]='270'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&quot;flag&quot; [rotate]=&quot;270&quot;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Rotate 270°
-        </td>
-        <td>
-          <fa name='flag' [rotate]='270'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&quot;flag&quot; [rotate]=&quot;270&quot;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Size lg
-        </td>
-        <td>
-          <fa name='flag' size='lg'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&apos;flag&apos; size=&apos;lg&apos;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Size 2x
-        </td>
-        <td>
-          <fa name='flag' size='2x'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&apos;flag&apos; size=&apos;2x&apos;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Size 3x
-        </td>
-        <td>
-          <fa name='flag' size='3x'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&apos;flag&apos; size=&apos;3x&apos;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Size 4x
-        </td>
-        <td>
-          <fa name='flag' size='4x'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&apos;flag&apos; size=&apos;4x&apos;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Size 5x
-        </td>
-        <td>
-          <fa name='flag' size='5x'></fa>
-        </td>
-        <td>
-          <code>&lt;fa name=&apos;flag&apos; size=&apos;5x&apos;&gt;&lt;/fa&gt;</code>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Unordered List<br>
-          (Different Bullets)
-        </td>
-        <td>
-          <fa-ul>
-            <fa-li bullet='plus-circle'>Item one</fa-li>
-            <fa-li bullet='info-circle'>Item two</fa-li>
-            <fa-li bullet='check-circle'>Item three</fa-li>
+          <fa-ul style='regular' bullet='square'>
+            <fa-li bullet='check-square'>Lists can</fa-li>
+            <fa-li>use icons</fa-li>
+            <fa-li>as bullets</fa-li>
           </fa-ul>
+          <p>
+            A list can use icons as bullets. The bullet icon can be set at the
+            list level and overridden at the list item level.
+          </p>
+        </td>
+        <td><code>{{"<fa-ul style='regular' bullet='square'>
+  <fa-li bullet='check-square'>Lists can</fa-li>
+  <fa-li>use icons</fa-li>
+  <fa-li>as bullets</fa-li>
+</fa-ul>"}}</code></td>
+      </tr>
+      <tr>
+        <td>Rotate & Flip</td>
+        <td>
+          <fa name='flag'></fa><br>
+          <fa name='flag' rotate='90'></fa><br>
+          <fa name='flag' rotate='180'></fa><br>
+          <fa name='flag' rotate='270'></fa><br>
+          <fa name='flag' flip='horizontal'></fa><br>
+          <fa name='flag' flip='vertical'></fa><br>
+          <fa name='flag' flip='both'></fa>
+        </td>
+        <td><code>{{"<fa name='flag'></fa>
+<fa name='flag' rotate='90'></fa>
+<fa name='flag' rotate='180'></fa>
+<fa name='flag' rotate='270'></fa>
+<fa name='flag' flip='horizontal'></fa>
+<fa name='flag' flip='vertical'></fa>
+<fa name='flag' flip='both'></fa>"}}</code></td>
+      </tr>
+      <tr>
+        <td>
+          Spinners
         </td>
         <td>
-          <code>&lt;fa-ul&gt;
-  &lt;fa-li bullet=&apos;flag&apos;&gt;Item one&lt;/fa-li&gt;
-  &lt;fa-li bullet=&apos;spinner&apos;&gt;Item two&lt;/fa-li&gt;
-  &lt;fa-li bullet=&apos;check-square&apos;&gt;Item three&lt;/fa-li&gt;
-&lt;/fa-ul&gt;</code>
+          <fa name='circle-notch' [spin]='true'></fa><br>
+          <fa name='spinner'      [pulse]='true'></fa>
+        </td>
+        <td>
+          <code>{{"<fa name='circle-notch' [spin]='true'></fa>
+<fa name='spinner'      [pulse]='true'></fa>"}}</code>
         </td>
       </tr>
       <tr>
         <td>
-          Unordered List<br>
-          (Same Bullets)
+          Pull Left or Right
         </td>
         <td>
-          <fa-ul bullet='check-square'>
-            <fa-li>Item one</fa-li>
-            <fa-li>Item two</fa-li>
-            <fa-li>Item three</fa-li>
-          </fa-ul>
+          <p><fa name='quote-left'  pull='left'  size='2x'></fa>Icons can be
+          floated left to act as a drop capital or a pull quote along the side
+          of a paragraph of text.</p>
+          <p><fa name='arrow-right' pull='right' size='2x' [border]='true'></fa>
+          Icons can be floated right and decorated with a border along the side
+          of a paragraph of text.</p>
         </td>
         <td>
-          <code>&lt;fa-ul bullet=&apos;check-square&apos;&gt;
-  &lt;fa-li&gt;Item one&lt;/fa-li&gt;
-  &lt;fa-li&gt;Item two&lt;/fa-li&gt;
-  &lt;fa-li&gt;Item three&lt;/fa-li&gt;
-&lt;/fa-ul&gt;</code>
+          <code>{{"<fa name='quote-left'  pull='left'  size='2x'>
+<fa name='arrow-right' pull='right' size='2x' [border]='true'>"}}</code>
         </td>
       </tr>
       <tr>
-        <td>
-          Icon Stack
+        <td>Stacks</td>
         <td>
           <fa-stack>
             <fa name='circle' stack='2x'></fa>
-            <fa name='flag' stack='1x' [inverse]='true'></fa>
+            <fa name='flag'   stack='1x' [inverse]='true'></fa>
+          </fa-stack><br>
+          <fa-stack size='2x'>
+            <fa name='camera' stack='1x'></fa>
+            <fa name='ban'    stack='2x' class="no-camera"></fa>
           </fa-stack>
         </td>
         <td>
-          <code>&lt;fa-stack&gt;
-  &lt;fa name=&apos;circle&apos; stack=&apos;2x&apos;&gt;&lt;/fa&gt;
-  &lt;fa name=&apos;flag&apos; stack=&apos;1x&apos; [inverse]=&apos;true&apos;&gt;&lt;/fa&gt;
-&lt;/fa-stack&gt;</code>
+          <code>{{"<fa-stack>
+  <fa name='circle' stack='2x'></fa>
+  <fa name='flag'   stack='1x' [inverse]='true'></fa>
+</fa-stack><br>
+<fa-stack size='2x'>
+  <fa name='camera' stack='1x'></fa>
+  <fa name='ban'    stack='2x' class='no-camera'></fa>
+</fa-stack>"}}</code>
         </td>
       </tr>
     </tbody>
   </table>
+</div>
