@@ -295,8 +295,6 @@ packages/ng_fontawesome/fonts/fontawesome-webfont.svg
 packages/ng_fontawesome/fonts/fontawesome-webfont.ttf
 packages/ng_fontawesome/fonts/fontawesome-webfont.woff
 packages/ng_fontawesome/fonts/fontawesome-webfont.woff2
-packages/ng_fontawesome/src/css/all.css2
-packages/ng_fontawesome/src/css/all.min.css2
 packages/node_preamble/preamble.js
 packages/node_preamble/preamble.min.js
 packages/package_resolver/src/test_package_config
